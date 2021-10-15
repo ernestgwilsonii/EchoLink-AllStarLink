@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T11:50:36.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" version="15.5.2" etag="aknIXhZe9f_DiIk9cO2M" type="github"><diagram id="esjhnlwZM_2KqE7nAPmI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-15T12:10:58.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="UdjkF-20qOR71z3ud5EO" version="15.5.2" type="github">
+  <diagram id="esjhnlwZM_2KqE7nAPmI" name="Overview">
+    <mxGraphModel dx="3693" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cZe4wT0ZkA3RcTf7hlBW-2" value="&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Updated: October 15, 2021 by Ernest Wilson II - W3GUY&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="798" width="1060" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cZe4wT0ZkA3RcTf7hlBW-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;SHARI Pi - AllStarLink node + EchoLink node&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="19" width="1060" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
