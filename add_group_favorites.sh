@@ -46,7 +46,5 @@ chmod a+r /srv/http/supermon/header.inc
 chmod a+r /srv/http/supermon/link.php
 chmod a+r /srv/http/supermon/syncgrpfavorites.php
 
-# Create an empty starting file with permision for the script to update
-touch /srv/http/supermon/group-favorites.ini
-chown root:http /srv/http/supermon/group-favorites.ini
-chmod a+rw /srv/http/supermon/group-favorites.ini
+# All the script to update
+chmod 775 /srv/http/supermon
