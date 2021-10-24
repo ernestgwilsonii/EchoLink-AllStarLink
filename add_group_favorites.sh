@@ -16,15 +16,16 @@
 
 # Add the update copy script
 cd /usr/local/bin
+cp /usr/local/sbin/supermon-syncgrpfavs.sh /usr/local/sbin/supermon-syncgrpfavs.sh.$(date '+%Y-%m-%d_%H:%M:%S') && rm -rf /usr/local/sbin/supermon-syncgrpfavs.sh
 wget https://raw.githubusercontent.com/ernestgwilsonii/EchoLink-AllStarLink/main/usr/local/sbin/supermon-syncgrpfavs.sh
 chmod a+rx /usr/local/sbin/supermon-syncgrpfavs.sh
 
-# Backup original files
+# Backup original files & remove old
 cd /srv/http/supermon
-cp /srv/http/supermon/grpfavorites.php /srv/http/supermon/grpfavorites.php.$(date '+%Y-%m-%d_%H:%M:%S')
-cp /srv/http/supermon/header.inc /srv/http/supermon/header.inc.$(date '+%Y-%m-%d_%H:%M:%S')
-cp /srv/http/supermon/link.php /srv/http/supermon/link.php.$(date '+%Y-%m-%d_%H:%M:%S')
-cp /srv/http/supermon/syncgrpfavorites.php /srv/http/supermon/syncgrpfavorites.php.$(date '+%Y-%m-%d_%H:%M:%S')
+cp /srv/http/supermon/grpfavorites.php /srv/http/supermon/grpfavorites.php.$(date '+%Y-%m-%d_%H:%M:%S') && rm -rf /srv/http/supermon/grpfavorites.php
+cp /srv/http/supermon/header.inc /srv/http/supermon/header.inc.$(date '+%Y-%m-%d_%H:%M:%S') && rm -rf /srv/http/supermon/header.inc
+cp /srv/http/supermon/link.php /srv/http/supermon/link.php.$(date '+%Y-%m-%d_%H:%M:%S') && rm -rf /srv/http/supermon/link.php
+cp /srv/http/supermon/syncgrpfavorites.php /srv/http/supermon/syncgrpfavorites.php.$(date '+%Y-%m-%d_%H:%M:%S') && rm -rf /srv/http/supermon/syncgrpfavorites.php
 
 # Download Ryan's modified files
 cd /srv/http/supermon
