@@ -15,7 +15,7 @@
 #######################################################################################################################
 
 # Add the update copy script
-cd /usr/local/bin
+cd /usr/local/sbin
 cp /usr/local/sbin/supermon-syncgrpfavs.sh /usr/local/sbin/supermon-syncgrpfavs.sh.$(date '+%Y-%m-%d_%H:%M:%S') && rm -rf /usr/local/sbin/supermon-syncgrpfavs.sh
 wget https://raw.githubusercontent.com/ernestgwilsonii/EchoLink-AllStarLink/main/usr/local/sbin/supermon-syncgrpfavs.sh
 chmod a+rx /usr/local/sbin/supermon-syncgrpfavs.sh
