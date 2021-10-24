@@ -4,7 +4,7 @@ include("session.inc");
 ?>
 <html>
 <head>
-<title>RadioFan.Club Favorites Sync Tool</title>
+<title>RadioFan.Club Group Favorites Sync Tool</title>
 </head>
 <body>
 <pre>
@@ -18,11 +18,6 @@ include("session.inc");
 		passthru ($cmd2);
 		echo "\n\n";
 
-		$cmd = "chown root:http /srv/http/supermon/group-favorites.ini";
-		echo "Command: $cmd\n-----------------------------------------------------------------\n";
-		passthru ($cmd);
-		$cmd2 = "ls -latr /srv/http/supermon/group-favorites.ini";
-		passthru ($cmd2);
 		echo "\n\n";
 		echo "\n\n";
 
